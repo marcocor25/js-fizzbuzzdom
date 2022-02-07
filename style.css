@@ -1,4 +1,16 @@
 #ms_container_fluid {
-    min-height: 1000px;
     background: #083A4C;
+}
+
+#main_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.square-content {
+    width: calc((100% - 60px) / 7);
+    min-height: 120px;
+    background: deeppink;
 }
