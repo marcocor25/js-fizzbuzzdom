@@ -12,5 +12,16 @@
 .square-content {
     width: calc((100% - 60px) / 7);
     min-height: 120px;
-    background: deeppink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1389B2;
+}
+
+.fizz-box {
+    background: #09D6A1;
+}
+
+.buzz-box {
+    background: #FFD166;
 }
