@@ -11,7 +11,10 @@ for (let i = 1; i < 101; i++) {
     container.append(square);
     square.classList.add('square-content');
 
-    if (i % 3 === 0) {
+    if (i % 15 === 0) {
+        square.classList.add('fizz-buzz-box');
+        square.append('fizzbuzz')
+    } else if (i % 3 === 0) {
         square.classList.add('fizz-box');
         square.append('fizz')
     } else if (i % 5 === 0) {

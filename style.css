@@ -6,11 +6,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
 }
 
 .square-content {
-    width: calc((100% - 60px) / 7);
+    width: calc((100% - 120px) / 7);
     min-height: 120px;
     display: flex;
     justify-content: center;
@@ -24,4 +24,8 @@
 
 .buzz-box {
     background: #FFD166;
+}
+
+.fizz-buzz-box {
+    background: #F0456F;
 }
